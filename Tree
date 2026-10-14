@@ -1,0 +1,28 @@
+1. Problem Statement
+
+Write a C++ program to perform level-order traversal of a binary tree using a queue and display the nodes level by level.
+
+Definition: Level-order traversal is a tree traversal technique in which nodes are visited level by level, starting from the root node and moving from left to right at each level. It uses a queue (FIFO) data structure.
+
+
+2. Algorithm
+
+Start.
+
+Create a binary tree with a root node.
+
+Create an empty queue.
+
+Insert the root node into the queue.
+
+Repeat while the queue is not empty:
+
+Remove the front node from the queue.
+
+Display its data.
+
+If the node has a left child, insert it into the queue.
+
+If the node has a right child, insert it into the queue.
+
+Stop.
