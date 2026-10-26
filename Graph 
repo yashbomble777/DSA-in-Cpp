@@ -1,0 +1,56 @@
+1. Problem Statement
+
+Develop a C++ program to represent users and their messaging contacts as an undirected graph using an adjacency list. The program should accept the number of users and their contact relationships as input, display the contact list of every user, and calculate and display the number of contacts associated with each user.
+
+2. Objectives
+
+1.To represent users as vertices and contact relationships as edges.
+
+2.To implement an undirected graph using an adjacency list.
+
+3.To accept contact relationships from the user.
+
+4.To display the contact list of every user.
+
+5.To calculate the degree of each vertex, representing the number of contacts associated with that user.
+
+3. Algorithm
+Start.
+
+Read the number of users, 
+V
+V.
+
+Create an empty adjacency list for all users.
+
+Read the number of contact relationships, 
+E
+E.
+
+For each relationship:
+
+Read two user IDs, 
+u
+u and 
+v
+v.
+
+Add 
+v
+v to the adjacency list of 
+u
+u.
+
+Add 
+u
+u to the adjacency list of 
+v
+v, because the graph is undirected.
+
+Display the contact list of each user.
+
+Calculate the number of contacts for each user by finding the size of their adjacency list.
+
+Display the number of contacts associated with each user.
+
+Stop.
