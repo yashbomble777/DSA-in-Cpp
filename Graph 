@@ -15,42 +15,17 @@ Develop a C++ program to represent users and their messaging contacts as an undi
 5.To calculate the degree of each vertex, representing the number of contacts associated with that user.
 
 3. Algorithm
-Start.
 
-Read the number of users, 
-V
-V.
+1.Start.
+2.Read the number of users,V.
+3.Create an empty adjacency list for all users.
+4.Read the number of contact relationships,E.
+5.For each relationship:
 
-Create an empty adjacency list for all users.
-
-Read the number of contact relationships, 
-E
-E.
-
-For each relationship:
-
-Read two user IDs, 
-u
-u and 
-v
-v.
-
-Add 
-v
-v to the adjacency list of 
-u
-u.
-
-Add 
-u
-u to the adjacency list of 
-v
-v, because the graph is undirected.
-
-Display the contact list of each user.
-
-Calculate the number of contacts for each user by finding the size of their adjacency list.
-
-Display the number of contacts associated with each user.
-
-Stop.
+6.Read two user IDs,u and v.
+7.Add v to the adjacency list of u.
+8.Add u to the adjacency list of v, because the graph is undirected.
+9.Display the contact list of each user.
+10.Calculate the number of contacts for each user by finding the size of their adjacency list.
+11.Display the number of contacts associated with each user.
+12.Stop.
