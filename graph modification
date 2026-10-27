@@ -3,56 +3,38 @@
 Write a C program to perform the following operations on an undirected graph using an adjacency matrix:
 
 A. Insertion of a vertex: Insert a new vertex along with its associated edges and display the updated graph.
-
 B. Deletion of an edge: Remove a selected edge from the graph and display the updated graph representation.
-
 C. Degree and neighbours: Calculate and display the degree and direct neighbours of a selected vertex.
 
 2. Objectives
 
 1.To understand graph representation using an adjacency matrix.
-
 2.To insert a new vertex and establish its connections with existing vertices.
-
 3.To delete a selected edge and update the adjacency matrix.
-
 4.To calculate the degree of a vertex and identify its direct neighbours.
-
 5.To implement graph operations using the C programming language.
+
 
 3. Algorithm
 
 1.Start.
 2.Read the number of vertices and the adjacency matrix.
-
 3.Display the original adjacency matrix.
-
 4.Insert a vertex:
 Read the connections of the new vertex with existing vertices.
 5.Update the corresponding row and column of the adjacency matrix.
-
 6.Increase the number of vertices by one.
-
 7.Display the updated graph.
 
 8.Delete an edge:
-
-Read the two vertices forming the selected edge.
-
+ Read the two vertices forming the selected edge.
 9.Check whether the edge exists.
-
 10.Set the corresponding matrix elements to zero.
-
-11.Display the updated graph.
-
+11.Display the updated graph
+.
 12.Find degree and neighbours:
-
 Read the selected vertex.
-
 13.Traverse its row in the adjacency matrix.
-
 14.Count the entries equal to one to calculate the degree.
-
 15.Display the vertices connected directly to it.
-
 16.Stop.
